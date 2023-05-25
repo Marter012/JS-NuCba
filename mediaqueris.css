@@ -1,0 +1,115 @@
+@media (max-width : 1240px){
+    .cont-info-list{
+        font-size: 14px;
+    }
+    .carritoEstilo-productos{
+        height: 300px;
+    }    
+    
+}
+@media (max-width : 940px){    
+    .navbar-logo-separador p{
+        margin-top: 15px;
+        font-size: 70px; 
+    }
+    .cont-info-list{
+        font-size: 13px;
+    }
+    .cont-productos-opc{
+        height: 700px;
+    }
+    .img2{
+        display: none;
+    }
+    .cont-servicios-varios{        
+        grid-template-columns:1fr 1fr;        
+        grid-gap: 2rem;
+    }
+    .cont-productos-varios{        
+        grid-template-columns: 1fr 1fr;
+    }
+    .img-login{
+        display: none;
+    }
+    .img-registrarme{
+        display: none;
+    }
+    .cont-final {
+        text-align: center;
+    }
+    .cont-final-a a{
+        font-size: 15px;
+    }
+    .cont-final-items{
+        font-size: 15px;
+    }
+    .cont-final-items i {
+        margin: 10px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width : 660px){
+    .cont-info{
+        height: auto;
+    }
+    .navbar-menu{
+        justify-content: end;
+    }
+    .cont-info-list{
+        margin-top: 10px;
+        align-items: start;
+    }
+    .img1{
+        display: none;
+    }
+    .nav-lista{
+        z-index: +1;
+        position: absolute;
+        right: 5px;    
+        display: none;
+        background-color: rgb(41, 59, 109);
+        width: 200px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    .nav-lista-li{
+        display: block;
+        margin-top: 10px;
+    }
+    .ver{
+        display: block;
+    }
+    .menu{
+        display: flex;
+    }
+    .registrarme{
+        height: auto;
+    }
+    .cont-servicios{
+        padding: 0px;
+    }
+    .cont-productos-varios{        
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:460px){
+    .logo{
+        display: none;
+    }
+    
+    .cont-servicios-varios{        
+        grid-template-columns: 1fr;        
+        width: 80%;
+        margin-left: 10%;
+    }
+    .cont-servicios h3 {
+        font-size: 40px;
+    }
+    .cont-productos h3 {
+        font-size: 40px;
+    }
+    .cont-final-a{
+        display: none;
+    }
+}

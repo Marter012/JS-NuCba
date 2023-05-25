@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaqueris.css">
+</head>
+<body>
+    <header  id="inicio">
+        <div class="overlay ocultar"></div>        
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <img src="./img/navbar/1.png"  class="logo"> 
+                <div class="navbar-logo-separador">
+                    <p>The Guys</p>
+                </div>
+                <img src="./img/navbar/1.png"  class="logo"> 
+            </div>
+            <div class="navbar-menu">
+                <ul class="nav-lista" id="nav-lista">
+                    <li class="nav-lista-li"><a href="#inicio">Inicio</a> </li>
+                    <li class="nav-lista-li"><a href="#servicios">Servicios</a> </li>
+                    <li class="nav-lista-li"><a href="#productos">Productos</a> </li>
+                    <li class="nav-lista-li"><a href="#contactos">Contacto</a> </li>
+                    <li class="nav-lista-li btnMiCuenta"><a href="#btnMiCuenta">Mi Cuenta</a> </li>
+                </ul>
+                <div class="ocultar carrito">
+                    <i class="fa-solid fa-cart-shopping carrito" style="color: #ffffff;"></i>
+                </div>
+                <div class="ocultar exit">
+                    <i class="fa-solid fa-arrow-right-from-bracket exit " style="color: #ffffff;"></i>
+                </div>
+                <div class="menu">
+                    <i class="fa-sharp fa-solid fa-bars" style="color: #6181b8;"></i>
+                </div>
+            </div>            
+        </nav>
+    </header>
+    <main>
+        <div class="carritoEstilo ocultar">
+            <form class="carritoEstilo-div">
+                <h3 class="carritoEstilo-h3">Tus Productos</h3>
+                <button id="vaciar-Carrito" class="ocultar">Vaciar Carrito</button>
+                <div class="ocultar" id="carrito-vacio"><p>Seleccione un producto o servicio.</p></div>
+                <div class="carritoEstilo-productos">
+                                       
+                </div>                
+                <div class="carritoEstilo-total">
+                    
+                </div>
+                <button type="submit" class="ocultar" id="btn-comprar">Comprar</button>
+            </form>
+        </div>
+        <div class="login ocultar">
+            <div class="close" id="closeL">
+                <i class="fa-solid fa-xmark" style="color: #000000;"></i>
+            </div>
+            <img class="img-login" src="./img/barberia_06.jpg" alt="">
+            <form class="login-form" id="login-form" >
+                <div class="login-form-info">
+                    <h4>Mi Cuenta</h4>
+                    <p>Accedé a beneficios, ofertas y regalos con tu usuario.</p>
+                </div>
+                <div class="login-form-info valor">
+                    <label  for="email">Ingrese su Email.</label>
+                    <input autocomplete="off" id="email" type="text">
+                    <span class="mailError"></span>
+                </div>
+                <div class="login-form-info valor" >
+                    <label  for="password">Ingrese su contraseña.</label>
+                    <input autocomplete="off" id="password" type="password">
+                    <span class="contraseñaError"></span>
+                </div>
+                <div class="login-form-btn">
+                    <p id="btn-registrarme">Registrarme</p>   
+                    <button id="btn-ingreso">Ingresar</button>                 
+                </div>   
+                
+            </form>
+        </div>  
+        <div class="registrarme ocultar" id="registrarme">
+            <div class="close" id="closeR">
+                <i class="fa-solid fa-xmark" style="color: #000000;"></i>
+            </div>
+            <img class="img-registrarme" src="./img/barberia_06.jpg" alt="">
+            <form>
+                <div class="registrarme-input">
+                    <h4>Registrarme</h4>
+                </div>
+                <div class="registrarme-input">
+                    <label  for="nombreR">Ingrese su Nombre.</label>
+                    <input autocomplete="off" id="nombreR" type="text">
+                    <span></span>
+                </div>
+                <div class="registrarme-input">
+                    <label  for="apellidoR">Ingrese su Apellido.</label>
+                    <input autocomplete="off" id="apellidoR" type="text">
+                    <span></span>
+                </div>
+                <div class="registrarme-input">
+                    <label  for="emailR">Ingrese su Email.</label>
+                    <input autocomplete="off" id="emailR" type="email">
+                    <span></span>
+                </div>
+                <div class="registrarme-input">
+                    <label  for="paswwordR">Ingrese una Contraseña.</label>                    
+                    <input autocomplete="off" id="passwordR" type="password">
+                    <span></span>
+                </div>
+                <button id="btn-registrado">Registrarme</button>
+            </form>
+        </div>      
+        <div class="login-exit ocultar"> 
+                <h4>Mi Cuenta</h4>                    
+                <button id="btn-Cerrar">Cerrar Session.</button>
+        </div>
+        <section class="cont-info">            
+            <div class="cont-info-list">
+                <img class="cont-info-img img1" src="./img/section/3.avif" alt="">                
+            </div>
+            <div class="cont-info-list">
+                <p class="cont-info-list-p">
+                    ¡Hola Somos The Guys! <br>
+                    Somos un grupo de amigos que en 2018 ante la creciente demanda de barberos,decidimos abrir nuestro local en Nueva Cordoba(cordoba,Argentina)
+                    para reservas de turnos y venta de productos capilares.
+                    En 2020 ante la crisis originada por la pandemia nos vimos obligados a cerrar nuestro local, y orientamos un espacio 
+                    online para venta de herramientas para barberos, gracias al apoyo de nuestros clientes en 2023 abrimos nuevamente un
+                    espacio fisico, en el cual brindamos acesoramiento personal, servicios, y ademas venta de herramientas 
+                    y productos para quienes deseen emprender en este mundo de la barberia.
+                    <br><br>
+                    Registrate en nuestra plataforma para obtener mas informacon.
+                </p>
+            </div>
+            <div class="cont-info-list">
+                <img class="cont-info-img img2" src="./img/section/4.avif" alt="">                
+            </div>
+        </section>
+        <section class="cont-servicios">
+            <h3 id="servicios">Nuestros Servicios</h3>
+            <div class="cont-servicios-varios">
+                
+            </div>
+        </section>
+        <section class="cont-productos">
+            <h3 id="productos">Productos</h3>
+            <div class="cont-productos-varios">
+                
+            </div>
+        </section>
+    </main>
+    <footer class="cont-final">        
+        <div id="contactos" class="cont-final-items">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i>Seguinos en Facebook @Barber</a>            
+            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>Nuestro whatsapp 351151xs2x5s</a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i>Mira nuestros trabajos en @LaBarber.</a>           
+        </div>
+        <div class="cont-final-a">
+            <a href="https://barberworld.hu/en?gclid=CjwKCAjwov6hBhBsEiwAvrvN6FCbXOawPoPPMA3S23SjTg2cgk0MMKLhA_K7M5sdIcusNRxhHOPHzBoCmagQAvD_BwE">Conoce un poco mas de nuestras influencias</a>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/672f4f1f79.js" crossorigin="anonymous"></script>
+    <script src="./request.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
