@@ -310,7 +310,8 @@ const renderTotal = (CompraReserva) => {
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
-const verificarCuenta = () =>{
+const verificarCuenta = (e) =>{
+    e.preventDefault();
     let checkCuentaE = checkEmailLogin(email);
     let checkCuentaP = checkPassLogin()
     let formularioValido = checkCuentaE && checkCuentaP;
